@@ -1,0 +1,63 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
+  font-weight: 500;
+}
+body {
+  min-width: 400px;
+  min-height: 350px;
+  background-color: #90783b;
+}
+.header {
+  justify-content: center;
+  display: flex;
+  height: 40px;
+  background-color: whitesmoke;
+  margin: -8px;
+  padding: 5px;
+}
+#timer {
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+  font-family: cursive;
+  font-weight: 900;
+  color: #fffacf;
+  text-shadow: 0px 0px 15px #1dfd5d;
+}
+#container-btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn {
+  padding: 8px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 18px 5px #bcfd1d;
+}
+.btn-task {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 3px #bcfd1d;
+  margin: 5px 2px;
+  min-width: 280px;
+}
+.btn-X {
+  padding: 8px;
+  border: none;
+  border-radius: 4px 3px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 3px #bcfd1d;
+  margin: 5px 4px;
+  font-weight: 700;
+}
+#timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+}

@@ -1,0 +1,33 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+body {
+  background-color: #90783b;
+  color: whitesmoke;
+
+  text-shadow: 0px 0px 15px #fdf91d;
+}
+.btn-input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 3px #bcfd1d;
+  margin: 5px 2px;
+  min-width: 280px;
+  color: rgb(105, 92, 92);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn {
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 3px #bcfd1d;
+  margin: 5px 2px;
+  color: rgb(105, 92, 92);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
